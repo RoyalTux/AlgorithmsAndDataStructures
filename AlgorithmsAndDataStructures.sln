@@ -3,21 +3,42 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmsAndDataStructures", "AlgorithmsAndDataStructures\AlgorithmsAndDataStructures.csproj", "{38608ADA-067E-417D-8DDA-C7AB8641E17D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithms\Algorithms.csproj", "{F5EB13A8-62FF-4357-8D2A-17A20938A3DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{2AA22A43-32A1-4C3A-A0D9-B84962928E55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3B4ADF53-1E5D-4E0D-82E8-D7620611943A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{15503BC5-D17F-48B7-993D-B13360B60408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmsAndDataStructuresTests", "AlgorithmsAndDataStructuresTests\AlgorithmsAndDataStructuresTests.csproj", "{1641EB58-B226-444E-B515-13EC45292159}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x86 = Debug|x86
-		Release|x86 = Release|x86
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{38608ADA-067E-417D-8DDA-C7AB8641E17D}.Debug|x86.ActiveCfg = Debug|x86
-		{38608ADA-067E-417D-8DDA-C7AB8641E17D}.Debug|x86.Build.0 = Debug|x86
-		{38608ADA-067E-417D-8DDA-C7AB8641E17D}.Release|x86.ActiveCfg = Release|x86
-		{38608ADA-067E-417D-8DDA-C7AB8641E17D}.Release|x86.Build.0 = Release|x86
+		{F5EB13A8-62FF-4357-8D2A-17A20938A3DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5EB13A8-62FF-4357-8D2A-17A20938A3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5EB13A8-62FF-4357-8D2A-17A20938A3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5EB13A8-62FF-4357-8D2A-17A20938A3DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA22A43-32A1-4C3A-A0D9-B84962928E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA22A43-32A1-4C3A-A0D9-B84962928E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA22A43-32A1-4C3A-A0D9-B84962928E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA22A43-32A1-4C3A-A0D9-B84962928E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1641EB58-B226-444E-B515-13EC45292159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1641EB58-B226-444E-B515-13EC45292159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1641EB58-B226-444E-B515-13EC45292159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1641EB58-B226-444E-B515-13EC45292159}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5EB13A8-62FF-4357-8D2A-17A20938A3DA} = {3B4ADF53-1E5D-4E0D-82E8-D7620611943A}
+		{2AA22A43-32A1-4C3A-A0D9-B84962928E55} = {3B4ADF53-1E5D-4E0D-82E8-D7620611943A}
+		{1641EB58-B226-444E-B515-13EC45292159} = {15503BC5-D17F-48B7-993D-B13360B60408}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {120E5DA8-5721-4B71-A9E7-05B2F23306CA}
