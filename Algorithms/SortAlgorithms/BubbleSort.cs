@@ -2,7 +2,7 @@
 {
     public class BubbleSort
     {
-        public void Sort(int[] arr)
+        public void SortFromEnd(int[] arr)
         {
             for (var i = 0; i < arr.Length - 1; i++)
             {
@@ -12,6 +12,27 @@
                     {
                         Swap(ref arr[j], ref arr[j - 1]);
                     }
+                }
+            }
+        }
+
+        public void SortFromStart(int[] arr)
+        {
+            for (var i = 0; i < arr.Length - 1; i++)
+            {
+                var swapped = false;
+                for (var j = 0; j < arr.Length - 1; j++)
+                {
+                    if (arr[j] <= arr[j + 1])
+                    {
+                        continue;
+                    }
+                    Swap(ref arr[j], ref arr[j + 1]);
+                    swapped = true;
+                }
+                if (swapped == false)
+                {
+                    break;
                 }
             }
         }
